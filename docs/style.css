@@ -188,7 +188,9 @@ video {
 }
 
 #image1 {
-  max-width: 90%;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
 }
 
 #image2 {
