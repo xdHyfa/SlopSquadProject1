@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: PixelFont; /* set name */
+  src: url(donkey-kong-arcade-1981.otf); /* url of the font */
+}
+
 body {
   margin: 0;
   background-color: #e7e7e7;
@@ -64,9 +69,9 @@ body {
 }
 
 #ir9u {
-  color: #078f66;
-  font-size:4vw;
-  font-family: Verdana, Geneva, sans-serif;
+  color: #7ae09b;
+  font-size:3vw;
+  font-family: PixelFont;
 }
 
 #bigfatwhitesquare {
@@ -96,8 +101,8 @@ video {
 }
 
 #izkno {
-  font-size:3vw;
-  font-family: Verdana, Geneva, sans-serif;
+  font-size:2vw;
+  font-family: PixelFont;
 }
 
 #iib4a {
@@ -200,7 +205,7 @@ video {
 #mainbody {
   padding: 10px;
   font-size:1vw;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   max-width: 100%;
 }
 
@@ -431,7 +436,15 @@ video {
             }
 
             h1 {
-                font-size: 25px;
+                font-size: 20px;
+                font-family: PixelFont;
+                text-indent: 0px;
+            }
+
+            h2 {
+              font-size: 14px;
+              font-family: PixelFont;
+              text-indent: 0px;
             }
 
             strong {
